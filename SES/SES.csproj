@@ -13,9 +13,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Pages\Users\" />
+    <None Remove="Pages\Users %28copy%29\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pages\Users\" />
+    <Folder Include="Pages\Users %28copy%29\" />
   </ItemGroup>
 </Project>
