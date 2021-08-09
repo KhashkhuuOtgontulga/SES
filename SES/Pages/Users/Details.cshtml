@@ -1,0 +1,28 @@
+﻿@page
+@model SES.Pages.Users.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>@Model.User.FirstName</h1>
+            </div>
+
+            <div class="card-body text-center">
+                <h4>Employee ID : @Model.User.Id</h4>
+                <h4>FirstName : @Model.User.FirstName</h4>
+                <h4>LastName : @Model.User.LastName</h4>
+                <h4>Sex : @Model.User.Sex</h4>
+                <h4>Birthday : @Model.User.Birthday</h4>
+
+            </div>
+            <div class="card-footer text-center">
+                <a asp-page="index"
+                   class="btn btn-primary">Back</a>
+            </div>
+        </div>
+    </div>
+</div>
