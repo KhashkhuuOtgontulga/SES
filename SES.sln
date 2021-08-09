@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SES", "SES\SES.csproj", "{B3C9655B-6DD9-42C5-BE1A-97DF7E12BC0D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPages.Models", "RazorPages.Models\RazorPages.Models.csproj", "{621079AD-0991-4442-9991-3771294E59F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPages.Services", "RazorPages.Services\RazorPages.Services.csproj", "{1627C5CF-9128-4CC2-86CE-BD2B36C9926D}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "SES", "SES\SES.csproj", "{DB42B1F0-A200-495C-B03C-A2DBD00A8638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B3C9655B-6DD9-42C5-BE1A-97DF7E12BC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3C9655B-6DD9-42C5-BE1A-97DF7E12BC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B3C9655B-6DD9-42C5-BE1A-97DF7E12BC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B3C9655B-6DD9-42C5-BE1A-97DF7E12BC0D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{621079AD-0991-4442-9991-3771294E59F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{621079AD-0991-4442-9991-3771294E59F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{621079AD-0991-4442-9991-3771294E59F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{1627C5CF-9128-4CC2-86CE-BD2B36C9926D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1627C5CF-9128-4CC2-86CE-BD2B36C9926D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1627C5CF-9128-4CC2-86CE-BD2B36C9926D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB42B1F0-A200-495C-B03C-A2DBD00A8638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB42B1F0-A200-495C-B03C-A2DBD00A8638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB42B1F0-A200-495C-B03C-A2DBD00A8638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB42B1F0-A200-495C-B03C-A2DBD00A8638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
